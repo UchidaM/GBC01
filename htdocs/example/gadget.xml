@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="GREE BOOTCAMP 01"></ModulePrefs>
+  <Content view="mobile" type="url" href="gbchomework01.ap01.aws.af.cm" />
+  <Content view="touch" type="url" href="gbchomework01.ap01.aws.af.cm" />
+</Module>

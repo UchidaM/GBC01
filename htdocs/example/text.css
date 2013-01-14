@@ -1,0 +1,194 @@
+h1{
+	color:#000080;
+}
+div{
+	font-family:HG行書体,monospace;	/*文字タイプを変更*/
+	font-size:large;
+}
+
+A:link { color: #0000ff }   /* リンク */
+A:visited {                 /* 既に見たリンク */
+  color: #ff1493;
+  text-decoration: none     /* 下線を消す */
+}
+A:active { color: #00ff00 } /* クリック時のリンク */
+A:hover {                   /* カーソルが上にある時のリンク */
+  color: #ff0000;
+  text-decoration: none     /* 下線を消す */
+}
+
+/*------------------------------------------------------------*/
+/*最上部のタイトル用*/
+.title{
+	padding-top:20px;
+	padding-left:35%;
+	border-width:5px;
+	border-color:red;
+	border-style:groove;
+	background-color:gray;
+	max-width: 1024px; /* 最大幅 */
+	min-width: 240px; /* 最小幅 */
+	height:100px;
+	font-size:xx-large;
+	color:#000080;
+}
+
+/*カテゴリ用*/
+.category{
+	padding-left:200px;
+	padding-top:10px;
+	font-size:x-large;
+	border-style:solid;
+	border-color:#000000;
+	border-width:5px;
+	background-color:#000033;
+	color:white;
+	width:1020px;
+	height:100px;
+
+}
+
+/*------------------------------------------------------------*/
+/*トップ用*/
+
+.box1{
+	background-color:red;
+	color:white;
+	width:1020px;
+	height:560px;
+}
+/*-----------------------------------------------------------*/
+/*バンクーバー市用*/
+
+.box2-1{
+	border-width:4px;
+	border-color:yellow;
+	border-style:groove;
+	background-color:#33cccc;
+	color:white;
+	width:710px;
+	height:815px;
+	float:left;
+}
+.box2-2{
+	margin-top:815px;
+	margin-left:390px;
+	border-width:4px;
+	border-color:yellow;
+	border-style:groove;
+	background-color:#33cccc;
+	color:white;
+	width:630px;
+	height:287px;
+}
+.box3-1{
+	position:absolute;
+	top:215px;
+	border-width:4px;
+	border-color:orange;
+	border-style:groove;
+	background-color:#009999;
+	color:white;
+	width:310px;
+	height:400px;
+	float:right;
+}
+.box3-2{
+	position:absolute;
+	top:640px;
+	margin-left:-710px;
+	border-width:4px;
+	border-color:orange;
+	border-style:groove;
+	background-color:#009999;
+	color:white;
+	width:390px;
+	height:400px;
+	float:left;	
+}
+.box4{
+	position:absolute;
+	margin-top:425px;
+	margin-left:-320px;
+	background-color:yellow;
+	color:white;
+	width:320px;
+	height:392px;
+	float:right;	
+}
+
+
+/*------------------------------------------------------------*/
+/*ウィスラー用*/
+
+.box7-1{
+	border-width:4px;
+	border-color:darkblue;
+	border-style:solid;
+	background-color:#6699cc;
+	color:white;
+	width:1020px;
+	height:170px;
+}
+.box7-2{
+	border-width:4px;
+	border-color:orange;
+	border-style:solid;
+	background-color:#3399cc;
+	color:white;
+	width:1020px;
+	height:170px;
+}
+.box7-3{
+	padding-top:4px;
+	border-width:4px;
+	border-color:cc3300;
+	border-style:solid;
+	background-color:#3366cc;
+	color:white;
+	width:1020px;
+	height:170px;
+}
+.box7-4{
+	padding-top:4px;
+	border-width:4px;
+	border-color:red;
+	border-style:solid;
+	background-color:#0066cc;
+	color:white;
+	width:1020px;
+	height:170px;
+}
+/*-----------------------------------------------------------*/
+/*ウェスト・バンクーバー：リッチモンド：用*/
+
+.box8{
+	border-width:4px;
+	border-color:#99cccc;
+	border-style:solid;
+	background-color:gray;
+	color:white;
+	width:1020px;
+	height:900px;
+}
+
+/*画像用*/
+.box9{
+	margin-top:-590px;
+	margin-left:500px;
+	z-index:1;
+	border-width:4px;
+	border-color:black;
+	border-style:solid;
+	background-color:white;
+	color:white;
+	width:500px;
+	height:250px;
+}
+
+/*-----------------------------------------------------------*/
+/*注目部分の変色用*/
+
+.attend{
+	color:red;
+}
