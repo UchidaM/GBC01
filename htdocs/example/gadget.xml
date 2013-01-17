@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
   <ModulePrefs title="GBC01MU"></ModulePrefs>
-  <!--<Content view="mobile" type="url" href="http://gbchomework01.ap01.aws.af.cm" />-->
   <Content view="touch" type="url" href="http://gbchomework01.ap01.aws.af.cm" />
 </Module>
